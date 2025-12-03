@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #fdf6e3; 
+  color: #5a3e2b;            
+  background-image: url("../img/chocolate.png");
+  background-size: 260px 380px;
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0;
+  color: #d4a373; 
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0;
+  color: #5a3e2b;
+}
+
+p {
+  padding: 6px 20px;
+  margin: 0;
+}
+
+table {
+  background-color: #fffbea; 
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #d4a373;
+  border-spacing: 0;
+  width: 50%;
+  float: left;
+}
+
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 5px 10px;
+  background-color: #d4a373;
+  color: #fffbea;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+a {
+  color: #5a3e2b;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: #e6d7c3;  
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.button {
+  background-color: #d4a373;
+  color: #fffbea;
+  border: 1px solid #d4a373;
+  border-radius: 300px;
+  transition: .3s background-color linear;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #f0c987;
+  color: #5a3e2b;
+  transition: .1s background-color linear;
+}
+
+footer {
+  background-color: #e6d7c3;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #5a3e2b;
+  text-align: center;
+}
